@@ -1,0 +1,8 @@
+﻿  20 File(s) copied
+  20 File(s) copied
+  main.cpp
+c:\users\user\desktop\cmp2012m code\src\Ball.h(70): warning C4305: '+=': truncation from 'double' to 'GLfloat'
+C:\Users\user\Desktop\CMP2012M Code\src\main.cpp(140): warning C4101: 'transformLocation': unreferenced local variable
+C:\Users\user\Desktop\CMP2012M Code\src\main.cpp(36): warning C4101: 'aspectRatio': unreferenced local variable
+  lab1.vcxproj -> C:\Users\user\Desktop\CMP2012M Code\bin\bin\lab1.exe
+  lab1.vcxproj -> C:/Users/user/Desktop/CMP2012M Code/bin/bin/lab1.pdb (Full PDB)

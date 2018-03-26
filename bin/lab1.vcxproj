@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{82EF2CCE-21A3-3F87-B7D4-657EC303F6AC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>lab1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\user\Desktop\CMP2012M Code\bin\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lab1.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">lab1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\user\Desktop\CMP2012M Code\bin\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lab1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">lab1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\user\Desktop\CMP2012M Code\bin\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lab1.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">lab1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\user\Desktop\CMP2012M Code\bin\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lab1.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">lab1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLEW_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+call pre_build_Script.bat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;glew32s.lib;OpenGL32.lib;SDL2.lib;OpenGL32.lib;SDL2main.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;jpeg-static.lib;turbojpeg-static.lib;libpng16_static.lib;zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/user/.conan/data/SDL2_image/2.0.1/lasote/stable/package/66b8014737db0fe52f2cc8f1770faf9dbc21a30d/lib;C:/Users/user/.conan/data/SDL2_image/2.0.1/lasote/stable/package/66b8014737db0fe52f2cc8f1770faf9dbc21a30d/lib/$(Configuration);C:/Users/user/.conan/data/SDL2_mixer/2.0.1/a_teammate/testing/package/ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9/lib;C:/Users/user/.conan/data/SDL2_mixer/2.0.1/a_teammate/testing/package/ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9/lib/$(Configuration);C:/Users/user/.conan/data/SDL2_ttf/2.0.14/hilborn/stable/package/881c23e283f53ff55197ea6cd0a98e4369df405a/lib;C:/Users/user/.conan/data/SDL2_ttf/2.0.14/hilborn/stable/package/881c23e283f53ff55197ea6cd0a98e4369df405a/lib/$(Configuration);C:/Users/user/.conan/data/glew/2.0.0/coding3d/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib;C:/Users/user/.conan/data/glew/2.0.0/coding3d/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib/$(Configuration);C:/Users/user/.conan/data/glm/0.9.7.6/dlarudgus20/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib;C:/Users/user/.conan/data/glm/0.9.7.6/dlarudgus20/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(Configuration);C:/Users/user/.conan/data/SDL2/2.0.5/dotfloat/stable/package/91ccb03e0dea4be83e98d3bb24f796dc48e5be84/lib;C:/Users/user/.conan/data/SDL2/2.0.5/dotfloat/stable/package/91ccb03e0dea4be83e98d3bb24f796dc48e5be84/lib/$(Configuration);C:/Users/user/.conan/data/libjpeg-turbo/1.5.1/lasote/stable/package/9fa351ac1b30ceabd1b27310408605a456b5fd86/lib;C:/Users/user/.conan/data/libjpeg-turbo/1.5.1/lasote/stable/package/9fa351ac1b30ceabd1b27310408605a456b5fd86/lib/$(Configuration);C:/Users/user/.conan/data/libpng/1.6.21/lasote/stable/package/ee5dab950b6ea94ae953b93c55343e98c2ec39df/lib;C:/Users/user/.conan/data/libpng/1.6.21/lasote/stable/package/ee5dab950b6ea94ae953b93c55343e98c2ec39df/lib/$(Configuration);C:/Users/user/.conan/data/zlib/1.2.8/lasote/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib;C:/Users/user/.conan/data/zlib/1.2.8/lasote/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD;LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/user/Desktop/CMP2012M Code/bin/lib/lab1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/CMP2012M Code/bin/bin/lab1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+call pre_build_Script.bat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;glew32s.lib;OpenGL32.lib;SDL2.lib;OpenGL32.lib;SDL2main.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;jpeg-static.lib;turbojpeg-static.lib;libpng16_static.lib;zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/user/.conan/data/SDL2_image/2.0.1/lasote/stable/package/66b8014737db0fe52f2cc8f1770faf9dbc21a30d/lib;C:/Users/user/.conan/data/SDL2_image/2.0.1/lasote/stable/package/66b8014737db0fe52f2cc8f1770faf9dbc21a30d/lib/$(Configuration);C:/Users/user/.conan/data/SDL2_mixer/2.0.1/a_teammate/testing/package/ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9/lib;C:/Users/user/.conan/data/SDL2_mixer/2.0.1/a_teammate/testing/package/ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9/lib/$(Configuration);C:/Users/user/.conan/data/SDL2_ttf/2.0.14/hilborn/stable/package/881c23e283f53ff55197ea6cd0a98e4369df405a/lib;C:/Users/user/.conan/data/SDL2_ttf/2.0.14/hilborn/stable/package/881c23e283f53ff55197ea6cd0a98e4369df405a/lib/$(Configuration);C:/Users/user/.conan/data/glew/2.0.0/coding3d/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib;C:/Users/user/.conan/data/glew/2.0.0/coding3d/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib/$(Configuration);C:/Users/user/.conan/data/glm/0.9.7.6/dlarudgus20/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib;C:/Users/user/.conan/data/glm/0.9.7.6/dlarudgus20/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(Configuration);C:/Users/user/.conan/data/SDL2/2.0.5/dotfloat/stable/package/91ccb03e0dea4be83e98d3bb24f796dc48e5be84/lib;C:/Users/user/.conan/data/SDL2/2.0.5/dotfloat/stable/package/91ccb03e0dea4be83e98d3bb24f796dc48e5be84/lib/$(Configuration);C:/Users/user/.conan/data/libjpeg-turbo/1.5.1/lasote/stable/package/9fa351ac1b30ceabd1b27310408605a456b5fd86/lib;C:/Users/user/.conan/data/libjpeg-turbo/1.5.1/lasote/stable/package/9fa351ac1b30ceabd1b27310408605a456b5fd86/lib/$(Configuration);C:/Users/user/.conan/data/libpng/1.6.21/lasote/stable/package/ee5dab950b6ea94ae953b93c55343e98c2ec39df/lib;C:/Users/user/.conan/data/libpng/1.6.21/lasote/stable/package/ee5dab950b6ea94ae953b93c55343e98c2ec39df/lib/$(Configuration);C:/Users/user/.conan/data/zlib/1.2.8/lasote/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib;C:/Users/user/.conan/data/zlib/1.2.8/lasote/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD;LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/user/Desktop/CMP2012M Code/bin/lib/lab1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/CMP2012M Code/bin/bin/lab1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+call pre_build_Script.bat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;glew32s.lib;OpenGL32.lib;SDL2.lib;OpenGL32.lib;SDL2main.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;jpeg-static.lib;turbojpeg-static.lib;libpng16_static.lib;zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/user/.conan/data/SDL2_image/2.0.1/lasote/stable/package/66b8014737db0fe52f2cc8f1770faf9dbc21a30d/lib;C:/Users/user/.conan/data/SDL2_image/2.0.1/lasote/stable/package/66b8014737db0fe52f2cc8f1770faf9dbc21a30d/lib/$(Configuration);C:/Users/user/.conan/data/SDL2_mixer/2.0.1/a_teammate/testing/package/ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9/lib;C:/Users/user/.conan/data/SDL2_mixer/2.0.1/a_teammate/testing/package/ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9/lib/$(Configuration);C:/Users/user/.conan/data/SDL2_ttf/2.0.14/hilborn/stable/package/881c23e283f53ff55197ea6cd0a98e4369df405a/lib;C:/Users/user/.conan/data/SDL2_ttf/2.0.14/hilborn/stable/package/881c23e283f53ff55197ea6cd0a98e4369df405a/lib/$(Configuration);C:/Users/user/.conan/data/glew/2.0.0/coding3d/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib;C:/Users/user/.conan/data/glew/2.0.0/coding3d/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib/$(Configuration);C:/Users/user/.conan/data/glm/0.9.7.6/dlarudgus20/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib;C:/Users/user/.conan/data/glm/0.9.7.6/dlarudgus20/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(Configuration);C:/Users/user/.conan/data/SDL2/2.0.5/dotfloat/stable/package/91ccb03e0dea4be83e98d3bb24f796dc48e5be84/lib;C:/Users/user/.conan/data/SDL2/2.0.5/dotfloat/stable/package/91ccb03e0dea4be83e98d3bb24f796dc48e5be84/lib/$(Configuration);C:/Users/user/.conan/data/libjpeg-turbo/1.5.1/lasote/stable/package/9fa351ac1b30ceabd1b27310408605a456b5fd86/lib;C:/Users/user/.conan/data/libjpeg-turbo/1.5.1/lasote/stable/package/9fa351ac1b30ceabd1b27310408605a456b5fd86/lib/$(Configuration);C:/Users/user/.conan/data/libpng/1.6.21/lasote/stable/package/ee5dab950b6ea94ae953b93c55343e98c2ec39df/lib;C:/Users/user/.conan/data/libpng/1.6.21/lasote/stable/package/ee5dab950b6ea94ae953b93c55343e98c2ec39df/lib/$(Configuration);C:/Users/user/.conan/data/zlib/1.2.8/lasote/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib;C:/Users/user/.conan/data/zlib/1.2.8/lasote/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD;LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/user/Desktop/CMP2012M Code/bin/lib/MinSizeRel/lab1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/CMP2012M Code/bin/bin/MinSizeRel/lab1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\.conan\data\SDL2_image\2.0.1\lasote\stable\package\66b8014737db0fe52f2cc8f1770faf9dbc21a30d\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include;C:\Users\user\.conan\data\SDL2_mixer\2.0.1\a_teammate\testing\package\ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9\include\SDL2;C:\Users\user\.conan\data\SDL2_ttf\2.0.14\hilborn\stable\package\881c23e283f53ff55197ea6cd0a98e4369df405a\include;C:\Users\user\.conan\data\glew\2.0.0\coding3d\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;C:\Users\user\.conan\data\glm\0.9.7.6\dlarudgus20\stable\package\5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9\include;C:\Users\user\.conan\data\SDL2\2.0.5\dotfloat\stable\package\91ccb03e0dea4be83e98d3bb24f796dc48e5be84\include;C:\Users\user\.conan\data\libjpeg-turbo\1.5.1\lasote\stable\package\9fa351ac1b30ceabd1b27310408605a456b5fd86\include;C:\Users\user\.conan\data\libpng\1.6.21\lasote\stable\package\ee5dab950b6ea94ae953b93c55343e98c2ec39df\include;C:\Users\user\.conan\data\zlib\1.2.8\lasote\stable\package\63da998e3642b50bee33f4449826b2d623661505\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PreBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+call pre_build_Script.bat
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PreBuildEvent>
+    <Link>
+      <AdditionalDependencies>SDL2_image.lib;SDL2_mixer.lib;SDL2_ttf.lib;glew32s.lib;OpenGL32.lib;SDL2.lib;OpenGL32.lib;SDL2main.lib;user32.lib;gdi32.lib;winmm.lib;imm32.lib;ole32.lib;oleaut32.lib;version.lib;uuid.lib;jpeg-static.lib;turbojpeg-static.lib;libpng16_static.lib;zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/user/.conan/data/SDL2_image/2.0.1/lasote/stable/package/66b8014737db0fe52f2cc8f1770faf9dbc21a30d/lib;C:/Users/user/.conan/data/SDL2_image/2.0.1/lasote/stable/package/66b8014737db0fe52f2cc8f1770faf9dbc21a30d/lib/$(Configuration);C:/Users/user/.conan/data/SDL2_mixer/2.0.1/a_teammate/testing/package/ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9/lib;C:/Users/user/.conan/data/SDL2_mixer/2.0.1/a_teammate/testing/package/ce34dc50d00bd61744f4d45bdbea986a8a8ce1b9/lib/$(Configuration);C:/Users/user/.conan/data/SDL2_ttf/2.0.14/hilborn/stable/package/881c23e283f53ff55197ea6cd0a98e4369df405a/lib;C:/Users/user/.conan/data/SDL2_ttf/2.0.14/hilborn/stable/package/881c23e283f53ff55197ea6cd0a98e4369df405a/lib/$(Configuration);C:/Users/user/.conan/data/glew/2.0.0/coding3d/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib;C:/Users/user/.conan/data/glew/2.0.0/coding3d/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib/$(Configuration);C:/Users/user/.conan/data/glm/0.9.7.6/dlarudgus20/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib;C:/Users/user/.conan/data/glm/0.9.7.6/dlarudgus20/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/lib/$(Configuration);C:/Users/user/.conan/data/SDL2/2.0.5/dotfloat/stable/package/91ccb03e0dea4be83e98d3bb24f796dc48e5be84/lib;C:/Users/user/.conan/data/SDL2/2.0.5/dotfloat/stable/package/91ccb03e0dea4be83e98d3bb24f796dc48e5be84/lib/$(Configuration);C:/Users/user/.conan/data/libjpeg-turbo/1.5.1/lasote/stable/package/9fa351ac1b30ceabd1b27310408605a456b5fd86/lib;C:/Users/user/.conan/data/libjpeg-turbo/1.5.1/lasote/stable/package/9fa351ac1b30ceabd1b27310408605a456b5fd86/lib/$(Configuration);C:/Users/user/.conan/data/libpng/1.6.21/lasote/stable/package/ee5dab950b6ea94ae953b93c55343e98c2ec39df/lib;C:/Users/user/.conan/data/libpng/1.6.21/lasote/stable/package/ee5dab950b6ea94ae953b93c55343e98c2ec39df/lib/$(Configuration);C:/Users/user/.conan/data/zlib/1.2.8/lasote/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib;C:/Users/user/.conan/data/zlib/1.2.8/lasote/stable/package/63da998e3642b50bee33f4449826b2d623661505/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>LIBCMTD;LIBCMT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/user/Desktop/CMP2012M Code/bin/lib/RelWithDebInfo/lab1.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/CMP2012M Code/bin/bin/RelWithDebInfo/lab1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Desktop\CMP2012M Code\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/user/Desktop/CMP2012M Code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/user/Desktop/CMP2012M Code" "-BC:/Users/user/Desktop/CMP2012M Code/bin" --check-stamp-file "C:/Users/user/Desktop/CMP2012M Code/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/user/Desktop/CMP2012M Code/CMakeLists.txt;C:\Users\user\Desktop\CMP2012M Code\CMakeLists.txt;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\conanbuildinfo.cmake;C:\Users\user\Desktop\CMP2012M Code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/user/Desktop/CMP2012M Code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/user/Desktop/CMP2012M Code" "-BC:/Users/user/Desktop/CMP2012M Code/bin" --check-stamp-file "C:/Users/user/Desktop/CMP2012M Code/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/user/Desktop/CMP2012M Code/CMakeLists.txt;C:\Users\user\Desktop\CMP2012M Code\CMakeLists.txt;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\conanbuildinfo.cmake;C:\Users\user\Desktop\CMP2012M Code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/user/Desktop/CMP2012M Code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/user/Desktop/CMP2012M Code" "-BC:/Users/user/Desktop/CMP2012M Code/bin" --check-stamp-file "C:/Users/user/Desktop/CMP2012M Code/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/user/Desktop/CMP2012M Code/CMakeLists.txt;C:\Users\user\Desktop\CMP2012M Code\CMakeLists.txt;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\conanbuildinfo.cmake;C:\Users\user\Desktop\CMP2012M Code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/user/Desktop/CMP2012M Code/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/user/Desktop/CMP2012M Code" "-BC:/Users/user/Desktop/CMP2012M Code/bin" --check-stamp-file "C:/Users/user/Desktop/CMP2012M Code/bin/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/user/Desktop/CMP2012M Code/CMakeLists.txt;C:\Users\user\Desktop\CMP2012M Code\CMakeLists.txt;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeCCompiler.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\3.9.1\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\user\Desktop\CMP2012M Code\bin\conanbuildinfo.cmake;C:\Users\user\Desktop\CMP2012M Code\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\user\Desktop\CMP2012M Code\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Background.h" />
+    <ClInclude Include="..\src\Ball.h" />
+    <ClInclude Include="..\src\Brick.h" />
+    <ClInclude Include="..\src\GLerror.h" />
+    <ClInclude Include="..\src\GameOver.h" />
+    <ClInclude Include="..\src\Heart.h" />
+    <ClInclude Include="..\src\Includes.h" />
+    <ClInclude Include="..\src\Paddle.h" />
+    <ClInclude Include="..\src\Score.h" />
+    <ClInclude Include="..\src\ShaderClass.h" />
+    <ClInclude Include="..\src\TextureClass.h" />
+    <ClCompile Include="..\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\user\Desktop\CMP2012M Code\bin\ZERO_CHECK.vcxproj">
+      <Project>{0CFB9E1C-8DDE-3325-814D-FE04A7867482}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,10 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Users/user/Desktop/CMP2012M Code/bin/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/user/Desktop/CMP2012M Code/bin/conanbuildinfo.cmake'
+    is newer than 'C:/Users/user/Desktop/CMP2012M Code/bin/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Current conanbuildinfo.cmake directory: C:/Users/user/Desktop/CMP2012M Code/bin
+  -- Conan: Using cmake global configuration
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/user/Desktop/CMP2012M Code/bin
